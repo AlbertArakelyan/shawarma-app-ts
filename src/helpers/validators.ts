@@ -9,10 +9,6 @@ const {
     firstName,
     email,
   },
-  orderDetailsFormFieldNames: {
-    size,
-    exceptions,
-  }
 } = formFieldNames;
 
 const { emailRegexp } = regexps;
@@ -32,9 +28,6 @@ const validators = {
       default:
         return false;
     }
-  },
-  orderDetailsFormValidator: (name: string, value: string | string[]): boolean => {
-    return !!value;
   },
 };
 

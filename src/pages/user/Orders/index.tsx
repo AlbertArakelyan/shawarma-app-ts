@@ -6,7 +6,7 @@ import { useAppDispatch } from '../../../store/configureStore';
 import { RootState } from '../../../store/configureStore';
 
 // Components
-import OrderCard from '../../../components/layouts/pages/Orders/OrderCard';
+import OrderCard from '../../../components/pages/Orders/OrderCard';
 
 // Actions
 import { getOrders } from '../../../store/order/order.actions';

@@ -3,8 +3,8 @@ import { useSelector } from 'react-redux';
 import { Row, Col } from 'react-bootstrap';
 
 // Components
-import OrderDetails from '../../../components/layouts/pages/Order/OrderDetails';
-import OrderSummary from '../../../components/layouts/pages/Order/OrderSummary';
+import OrderDetails from '../../../components/pages/Order/OrderDetails';
+import OrderSummary from '../../../components/pages/Order/OrderSummary';
 
 // Types
 import { RootState } from '../../../store/configureStore';

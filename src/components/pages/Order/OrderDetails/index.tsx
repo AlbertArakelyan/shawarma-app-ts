@@ -2,13 +2,13 @@ import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import { Form, Button } from 'react-bootstrap';
 
-import { useAppDispatch } from '../../../../../store/configureStore';
+import { useAppDispatch } from '../../../../store/configureStore';
 
 // Types
-import { IOrderDetailsData } from '../../../../../types/order';
+import { IOrderDetailsData } from '../../../../types/order';
 
 // Actions
-import { createOrder, updateOrderSummary } from '../../../../../store/order/order.actions';
+import { createOrder, updateOrderSummary } from '../../../../store/order/order.actions';
 
 const OrderDetails = () => {
   const dispatch = useAppDispatch();

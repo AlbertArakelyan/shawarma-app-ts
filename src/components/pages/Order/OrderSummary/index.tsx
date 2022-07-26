@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { useSelector } from 'react-redux';
 import { Form } from 'react-bootstrap';
 
-import { RootState } from '../../../../../store/configureStore';
+import { RootState } from '../../../../store/configureStore';
 
 const OrderSummary = () => {
   const { orderSummary } = useSelector((state: RootState) => state.order);
