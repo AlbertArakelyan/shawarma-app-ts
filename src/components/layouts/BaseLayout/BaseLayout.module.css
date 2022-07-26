@@ -1,0 +1,6 @@
+.shawarma-img-container {
+  height: 200px;
+}
+.shawarma-img {
+  object-fit: cover;
+}
